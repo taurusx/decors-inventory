@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These are the options displayed in the material drop-down Spinner -->
+    <string-array name="array_material_options">
+        <item>@string/material_unspecified</item>
+        <item>@string/material_glass</item>
+        <item>@string/material_wood</item>
+        <item>@string/material_metal</item>
+        <item>@string/material_fabric</item>
+    </string-array>
+</resources>

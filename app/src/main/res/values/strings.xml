@@ -1,0 +1,186 @@
+<resources>
+
+    <!-- =========== -->
+    <!-- Application -->
+    <!-- =========== -->
+
+    <!-- Name for the application [CHAR LIMIT=20] -->
+    <string name="app_name">Decors Inventory</string>
+
+    <!-- Title for the activity to add a new decor [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_decor">Add a Decor</string>
+
+    <!-- Title for the activity to edit an existing decor [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_decor">Edit Decor</string>
+
+    <!-- Label for editor menu option to save decor and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current decor [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overflow menu option that inserts fake decor data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all decors data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Decors</string>
+
+    <!-- Toast message when decor saved successfully [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_decor_successful">Decor saved.</string>
+
+    <!-- Toast message when decor was not saved [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_decor_failed">Error with saving decor.</string>
+
+    <!-- Toast message when decor saved successfully [CHAR LIMIT=NONE] -->
+    <string name="editor_update_decor_successful">Decor saved.</string>
+
+    <!-- Toast message when decor was not saved [CHAR LIMIT=NONE] -->
+    <string name="editor_update_decor_failed">Error with saving decor.</string>
+
+    <!-- Toast message when decor was not saved [CHAR LIMIT=NONE] -->
+    <string name="editor_update_decor_noname">Decor cannot be saved. Please provide decor\'s name.</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unfilled_fields_dialog_msg">Price, Quantity and Height fields cannot be empty.
+        If you want to continue, empty values will be saved as 0. \nAre you sure you want to quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current decor [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current decor was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_decor_successful">Decor deleted</string>
+
+    <!-- Toast message in editor when current decor has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_decor_failed">Error with deleting decor</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current decor [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this decor?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current decor [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current decor [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- =========== -->
+    <!-- Catalog -->
+    <!-- =========== -->
+
+    <!-- Title text for the empty view, which describes the empty catalog state [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">There are no decors in the catalog&#8230;</string>
+    <!-- Subtitle text for the empty view that prompts the user to add a decor [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a decor</string>
+
+    <!-- Label for the decor's price if the price equals 0 [CHAR LIMIT=20] -->
+    <string name="catalog_price_free">FREE</string>
+
+    <!-- Label for the decor's price currency [CHAR LIMIT=20] -->
+    <string name="catalog_price_currency_pln">%1$,.2f PLN</string>
+    <!-- Label for the decor's quantity [CHAR LIMIT=20] -->
+    <string name="catalog_quantity_label">Qty: %1$,d</string>
+
+    <!-- Label for the "SALE" button [CHAR LIMIT=12] -->
+    <string name="catalog_button_sale">SALE</string>
+
+    <!-- Toast message when decor saved successfully [CHAR LIMIT=NONE] -->
+    <string name="catalog_sale_update_quantity_successful">Decor sold.</string>
+
+    <!-- Toast message when decor was not saved [CHAR LIMIT=NONE] -->
+    <string name="catalog_sale_update_quantity_failed">Decor not sold.</string>
+
+    <!-- Toast message when decor was not saved [CHAR LIMIT=NONE] -->
+    <string name="catalog_sale_quantity_invalid">Selling this decor is impossible. Make sure you have enough products.</string>
+
+    <!-- =========== -->
+    <!-- Editor -->
+    <!-- =========== -->
+
+    <!-- Label for the action button to add decor photo [CHAR LIMIT=30] -->
+    <string name="editor_button_add_photo">Browse gallery to choose photo</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Decor Overview</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Measurement</string>
+
+    <!-- Label for material (substance) information in the editor [CHAR LIMIT=30] -->
+    <string name="category_material">Material</string>
+
+    <!-- Label for material (substance) information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Label for availability (quantity) information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Availability</string>
+
+    <!-- Label for availability (quantity) information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity_change">Increase or decrease quantity by:</string>
+
+    <!-- Label for supplier category in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier\'s Data</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_decor_name">Decor\'s Name</string>
+
+    <!-- Text hint for description field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_decor_desc">Description</string>
+
+    <!-- Text hint for height field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_decor_height">Height</string>
+
+    <!-- Units for height of the decor (centimeters) [CHAR LIMIT=5] -->
+    <string name="unit_decor_height">cm</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_decor_price">Price</string>
+
+    <!-- Units for price of the decor (Polish zloty) [CHAR LIMIT=5] -->
+    <string name="unit_decor_price">PLN</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_decor_quantity">Quantity</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=5] -->
+    <string name="hint_decor_quantity_change">1</string>
+
+    <!-- Label of increase quantity button in the editor [CHAR LIMIT=5] -->
+    <string name="button_quantity_increase">+</string>
+
+    <!-- Label of decrease quantity button in the editor [CHAR LIMIT=5] -->
+    <string name="button_quantity_decrease">-</string>
+
+    <!-- Units for quantity of the decor (pcs) [CHAR LIMIT=5] -->
+    <string name="unit_decor_quantity">pcs</string>
+
+    <!-- Text hint for supplier's name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_decor_supplier_name">Supplier\'s Name</string>
+
+    <!-- Text hint for supplier's email field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_decor_supplier_email">Supplier\'s Email</string>
+
+    <!-- Text that prompts the user to order more decors from a supplier in the editor [CHAR LIMIT=NONE] -->
+    <string name="editor_order_more_decors">Need more decors? Send an e-mail to your Supplier to place the order.</string>
+
+    <!-- Text that prompts the user to insert supplier's email in the editor [CHAR LIMIT=NONE] -->
+    <string name="editor_order_more_email_error">Please enter correct email before you can send your order.</string>
+
+    <!--  Label for the action button to place the order for more decors [CHAR LIMIT=30] -->
+    <string name="editor_button_order_more">Order More</string>
+
+    <!-- Text that prompts the user to insert supplier's email in the editor [CHAR LIMIT=NONE] -->
+    <string name="editor_order_more_email_subject">[ORDER] %1$s requested</string>
+
+    <!-- Labels for dropdown menu options - material the decor is made of [CHAR LIMIT=20] -->
+    <string name="material_glass">Glass</string>
+    <string name="material_metal">Metal</string>
+    <string name="material_wood">Wood</string>
+    <string name="material_fabric">Fabric</string>
+    <string name="material_unspecified">Unspecified</string>
+
+</resources>

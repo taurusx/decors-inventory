@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item in the list of decors -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:minHeight="@dimen/height_listview_item_min"
+        android:paddingBottom="@dimen/padding_listview_textcontainer"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingTop="@dimen/padding_listview_textcontainer">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@id/sale_button"
+            android:layout_toStartOf="@id/sale_button"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:paddingEnd="@dimen/padding_listview_textcontainer"
+            android:paddingRight="@dimen/padding_listview_textcontainer"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            tools:text="Glass Footed Vase with a long name, like 2-lines long" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_toLeftOf="@id/sale_button"
+            android:layout_toStartOf="@id/sale_button"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="@dimen/padding_listview_textcontainer_between"
+            android:paddingEnd="@dimen/padding_listview_price_side"
+            android:paddingLeft="@dimen/padding_listview_price_side"
+            android:paddingRight="@dimen/padding_listview_price_side"
+            android:paddingStart="@dimen/padding_listview_price_side"
+            android:paddingTop="@dimen/padding_listview_price_top"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/decorPriceColor"
+            tools:text="150,82 PLN" />
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/sale_button"
+            android:layout_alignStart="@id/sale_button"
+            android:fontFamily="sans-serif"
+            android:padding="@dimen/padding_listview_textcontainer_between"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/decorQuantityColor"
+            tools:text="Qty: 47" />
+
+        <Button
+            android:id="@+id/sale_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/price"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/sale_button"
+            android:text="@string/catalog_button_sale" />
+    </RelativeLayout>
+</FrameLayout>

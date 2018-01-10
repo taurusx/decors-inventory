@@ -1,0 +1,33 @@
+<resources>
+    <!-- Margin around the floating action button in CatalogActivity -->
+    <dimen name="margin_fab">16dp</dimen>
+
+    <!-- Common margin value used throughout the app -->
+    <dimen name="margin_all">16dp</dimen>
+
+    <!-- Height of each list item -->
+    <dimen name="height_listview_item_min">60dp</dimen>
+
+    <!-- Height of an image in editor view -->
+    <dimen name="height_imageview_min">180dp</dimen>
+    <dimen name="height_imageview_max">240dp</dimen>
+    <!-- Padding of text fields -->
+    <dimen name="padding_editor_between">8dp</dimen>
+    <!-- Size of buttons + and - in editor -->
+    <dimen name="size_button_quantity">48dp</dimen>
+
+    <!-- Top padding of text container in list item -->
+    <dimen name="padding_listview_textcontainer">8dp</dimen>
+    <!-- Padding between the views in container in list item -->
+    <dimen name="padding_listview_textcontainer_between">4dp</dimen>
+    <!-- Padding between the views in container in list item -->
+    <dimen name="padding_listview_price_side">24dp</dimen>
+    <!-- Padding between the views in container in list item -->
+    <dimen name="padding_listview_price_top">16dp</dimen>
+
+    <!-- Empty View width and height -->
+    <dimen name="size_listview_emptyview">80dp</dimen>
+    <!-- Empty View padding -->
+    <dimen name="padding_listview_emptyview">8dp</dimen>
+</resources>
+
